@@ -4,9 +4,9 @@ import numpy as np
 import torch
 import pytest
 import os.path
-@pytest.mark.skipif(not os.path.exists(_PATH_DATA), reason="Data files not found")
+#@pytest.mark.skipif(not os.path.exists(_PATH_DATA), reason="Data files not found")
 
-\
+
 def test_data():
     train_data, test_data = processed_mnist()
 
