@@ -11,7 +11,7 @@ def test_data():
     train_data, test_data = processed_mnist()
 
     assert len(train_data) == 30000 
-    assert len(test_data) == 5000
+    assert len(test_data) == 6000
     #assert that each datapoint has shape [1,28,28] or [784] depending on how you choose to format
     #print(train_data[0][0].shape)
     #print(train_data[0].shape)

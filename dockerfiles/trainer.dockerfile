@@ -16,8 +16,6 @@ RUN pip install -r requirements.txt --no-cache-dir
 # Possible to use run make requirements 
 
 
-
-
 #
 COPY first_cc_project/ first_cc_project/
 COPY data/ data/
