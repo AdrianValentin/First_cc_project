@@ -1,7 +1,7 @@
 #base image
 FROM python:3.10-slim
 
-# Install python 
+# Install python
 RUN apt update && \
     apt install --no-install-recommends -y build-essential gcc && \
     apt clean && rm -rf /var/lib/apt/lists/*
@@ -13,7 +13,7 @@ COPY pyproject.toml pyproject.toml
 # Set working directory
 WORKDIR /
 RUN pip install -r requirements.txt --no-cache-dir
-# Possible to use run make requirements 
+# Possible to use run make requirements
 
 
 #

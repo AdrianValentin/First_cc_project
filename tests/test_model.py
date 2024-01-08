@@ -1,11 +1,8 @@
-from first_cc_project.models.model_day1 import myawesomemodel
-import torch
-import numpy as np 
 def test_model():
     import torch
 
     # Load the saved model
-    model = torch.load('models/model.pt')
+    model = torch.load("models/model.pt")
     model.eval()  # Set the model to evaluation mode
 
     # Assuming your input is a numpy array, convert it to a PyTorch tensor
