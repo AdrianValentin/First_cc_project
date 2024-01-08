@@ -75,7 +75,8 @@ def train2(lr, batch_size, num_epochs):
     plt.title('Training Curve')
     plt.legend()
     plt.grid(True)
-
+    
+    
     # Make sure the directory exists
     figures_directory = "reports/figures/"
 
