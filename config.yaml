@@ -1,0 +1,21 @@
+model:
+  learning_rate: 0.001
+  batch_size: 32
+  num_epochs: 100
+  dropout_rate: 0.5
+  optimizer: adam
+
+dataset:
+  dataset_path: data/processed
+  validation_split: 0.2
+  test_split: 0.1
+
+training:
+  early_stopping: True
+  early_stopping_patience: 10
+  save_best_model: True
+  checkpoint_path: models
+
+
+
+# Add any additional configuration parameters as needed.
